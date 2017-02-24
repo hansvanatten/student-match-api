@@ -10,10 +10,8 @@ Day.delete_all
 User.delete_all
 
 # Days
-day1 = Day.create!(name: "2017-03-06", starts_at:"2017-03-06 00:00:00", ends_at:"2017-03-06 23:59:59")
-day2 = Day.create!(name: "2017-03-07", starts_at:"2017-03-07 00:00:00", ends_at:"2017-03-07 23:59:59")
-day3 = Day.create!(name: "2017-03-08", starts_at:"2017-03-08 00:00:00", ends_at:"2017-03-08 23:59:59")
-day4 = Day.create!(name: "2017-03-09", starts_at:"2017-03-09 00:00:00", ends_at:"2017-03-09 23:59:59")
+day1 = Day.create!(title: "2017-02-24", starts_at:"2017-02-24 00:00:00", ends_at:"2017-02-24 23:59:59")
+day2 = Day.create!(title: "2017-02-25", starts_at:"2017-02-25 00:00:00", ends_at:"2017-02-25 23:59:59")
 
 admin = User.create!(name: "Admin", email: "admin@mail.com", password: "qwer1234", admin: true)
 superman = User.create!(name: "Superman", email: "superman@mail.com", password: "qwer1234", admin: false)
